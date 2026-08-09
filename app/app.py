@@ -40,7 +40,7 @@ HEALTH_FILE = STATE_DIR / "healthy"
 READY_FILE.touch()
 HEALTH_FILE.touch()
 
-print(f"[boot] pata nahi kya ho raha hai this is some changes that has been applied notes-api starting — version={__version__} LOG_LEVEL={LOG_LEVEL} PERSIST={PERSIST} one more change this time. ab hoga auto-build with Jenkins")
+print(f"[boot] pata nahi kya ho raha hai this is some changes that has been applied notes-api starting — version={__version__} LOG_LEVEL={LOG_LEVEL} PERSIST={PERSIST} one more change this time. ab hoga auto-build with Jenkins. abhi Github ka autobuild band kiya.")
 
 _mem: list[dict] = []
 
